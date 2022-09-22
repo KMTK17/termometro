@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertidor de Temperatura</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container border d-flex p-5 my-5 align-items-center justify-content-around">
+
+        <div class="container-izq w-50">
+        <h1>CONVERTIDOR DE TEMPERATURA</h1>
+
+        <label for="farenheit" class="form-label">Temperatura en °F</label>
+        <input type="number" class="form-control" id="farenheit" name="farenheit">
+
+        <button class="btn btn-primary my-3" id="convertir">Convertir a °C</button>
+
+        <br>
+
+        <label for="celcius" class="form-label ">Temperatura en °C</label>
+        <input type="number" class="form-control" id="celcius" name="celcius">
+
+    </div>
+
+    <div class="container-der text-center">
+        <p>100°C</p>
+        <div id="termometro">
+            <div id="valor"></div>
+        </div>
+        <p class="my-3">0</p>
+
+       
+    </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
