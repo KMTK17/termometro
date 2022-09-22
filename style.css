@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#termometro{
+    height: 100px;
+    width: 50px;
+    border: 1px solid lightgray;
+    border-radius: 50px;
+    text-align: center;
+    transform: rotate(180deg);
+}
+
+#valor{
+    position: relative;
+    display: flex;
+    transform: rotate(180deg);
+    align-items: center;
+    text-align: center;
+    background-color: red;
+    border-radius: 50px;
+}
